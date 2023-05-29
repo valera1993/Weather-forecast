@@ -1,0 +1,121 @@
+body {
+  background-color: #d8dadf;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  padding: 40px;
+  width: 900px;
+  height: 570px;
+  background: no-repeat;
+  background-image: url(https://faktodrom.com/i/000070008AdU0gw/untitled.jpeg);
+  margin: auto;
+}
+
+.link {
+  font-size: 15px;
+}
+
+h1 {
+  text-align: center;
+  color: #1e038b;
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.cityName span {
+  color: #1e038b;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+}
+
+#menuBlock {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  width: 80px;
+}
+
+#citySelect {
+  padding: 5px;
+  margin: 5px;
+}
+
+#temperature {
+  padding: 5px 8px;
+  margin: 5px;
+}
+
+#days {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #1e038b;
+  width: 150px;
+  height: 150px;
+  border-radius: 25px;
+  color: rgb(231, 245, 247);
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+
+.day:hover {
+  cursor: pointer;
+  box-shadow: 5px 15px 20px rgb(231, 245, 247);
+}
+
+img {
+  width: 70px;
+}
+
+.list-item {
+  list-style: none;
+  color: rgb(231, 245, 247);
+  font-size: 19px;
+}
+
+.toDayInfo-list {
+  margin-top: 50px;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+}
+
+.time-list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(231, 245, 247);
+  border-radius: 20px;
+  list-style: none;
+  width: 150px;
+  height: 50px;
+  color: #180271;
+  margin: 0 5px;
+}
+
+footer {
+  height: 70px;
+  background-image: url(https://ecomir.in.ua/images/joomlart/article/cf4507ae4969876df39b5f798b6f40ce.jpg);
+  border-radius: 10px;
+}
+
+@media (max-width: 1600px) {
+  footer {
+    margin: auto;
+    border-radius: 0;
+    width: 980px;
+  }
+}

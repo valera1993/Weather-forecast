@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather forecast</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section>
+        <div class="cityName">
+          <h1></h1>
+          <span></span>
+        </div>
+      </section>
+      <section id="menuBlock">
+        <select id="citySelect">
+          <option>Kyiv</option>
+          <option selected="true">London</option>
+          <option>New York</option>
+          <option>Kharkiv</option>
+          <option>Boston</option>
+          <option>Chernivtsi</option>
+          <option>Montevideo</option>
+          <option>Voronezh</option>
+        </select>
+        <select id="temperature">
+          <option selected="true">Сelsius</option>
+          <option>Fahrenheit</option>
+        </select>
+      </section>
+      <section id="days">
+        <div class="day"><img /><span class="link"></span><span></span></div>
+        <div class="day"><img /><span class="link"></span><span></span></div>
+        <div class="day"><img /><span class="link"></span><span></span></div>
+        <div class="day"><img /><span class="link"></span><span></span></div>
+        <div class="day"><img /><span class="link"></span><span></span></div>
+      </section>
+      <section id="info">
+        <ul id="info-list">
+          <li class="list-item">Wind speed: <span id="infoWindPerSecond"></span></li>
+          <li class="list-item">Feels like: <span id="infoFill"></span></li>
+          <li class="list-item">Pressure: <span id="infoPressure"></span></li>
+          <li class="list-item">Sunrise time: <span id="infoTimeSunrise"></span></li>
+          <li class="list-item">Sunset time: <span id="infoTimeSunset"></span></li>
+        </ul>
+      </section>
+      <section id="daily-temperature">
+        <div id="toDayInfo">
+          <ul class="toDayInfo-list">
+            <li class="time-list">3:00<span id="03:00"></span></li>
+            <li class="time-list">6:00<span id="06:00"></span></li>
+            <li class="time-list">9:00<span id="09:00"></span></li>
+            <li class="time-list">12:00<span id="12:00"></span></li>
+            <li class="time-list">15:00<span id="15:00"></span></li>
+            <li class="time-list">18:00<span id="18:00"></span></li>
+            <li class="time-list">21:00<span id="21:00"></span></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script> 
+    <script src="cityWeather.js"></script> 
+    <script src="weatherList.js"></script> 
+    <script src="output.js"></script>
+    
+  </body>
+</html>
